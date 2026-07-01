@@ -1,16 +1,32 @@
-# React + Vite
+📝 AI Text Summarizer
+An AI-powered web application that automatically generates concise summaries from lengthy text using OpenAI's GPT model. Built with React, Node.js, Express, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features:
 
-Currently, two official plugins are available:
+✅ Advanced NLP summarization
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📝 Text input with character counter
 
-## React Compiler
+📤 File upload support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📋 One-click copy to clipboard
 
-## Expanding the Oxlint configuration
+💾 Download summaries as .txt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+🌓 Dark/Light theme toggle
+
+📜 Searchable history with timestamps
+
+🎨 Modern, responsive UI
+
+⚡ Fast and lightweight
+
+Tech Stack:
+
+Frontend: React + Vite + Tailwind CSS
+
+Backend: Node.js + Express
+
+AI: OpenAI GPT API
+
+Perfect for students, researchers, and professionals who need to quickly digest large amounts of text
