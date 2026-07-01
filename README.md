@@ -7,13 +7,7 @@ Features:
 
 📝 Text input with character counter
 
-📤 File upload support
-
 📋 One-click copy to clipboard
-
-💾 Download summaries as .txt
-
-🌓 Dark/Light theme toggle
 
 📜 Searchable history with timestamps
 
