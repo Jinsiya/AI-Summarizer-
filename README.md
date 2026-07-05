@@ -32,7 +32,7 @@ git clone https://github.com/Jinsiya/AI-Summarizer-.git
 cd AI-Summarizer-
 
 ## Step 2: Create Virtual Environment
-bash
+
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -42,21 +42,20 @@ python3 -m venv venv
 source venv/bin/activate
 
 ## Step 3: Install Dependencies
-bash
+
 pip install -r requirements.txt
 
 ## Step 4: Run Application
-bash
+
 python app.py
 
 ## Troubleshooting
 Transformers Error
-bash
-pip install transformers --upgrade
+"pip install transformers --upgrade"
 PyTorch Error
 bash
 # CPU version
-pip install torch --index-url https://download.pytorch.org/whl/cpu
+"pip install torch --index-url https://download.pytorch.org/whl/cpu"
 Model Download Issues
 bash
 export HF_ENDPOINT=https://hf-mirror.com
