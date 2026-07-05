@@ -28,10 +28,8 @@ Perfect for students, researchers, and professionals who need to quickly digest 
 ## 🚀 Installation
 
 ### Step 1: Clone Repository
-
-bash```
-git clone https://github.com/Jinsiya/CodeAlpha_SimpleLanguageTranslator.git
-cd CodeAlpha_SimpleLanguageTranslator
+git clone https://github.com/Jinsiya/AI-Summarizer-.git
+cd AI-Summarizer-
 
 ## Step 2: Create Virtual Environment
 bash
@@ -42,30 +40,23 @@ venv\Scripts\activate
 # Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-Step 3: Install Dependencies
+
+## Step 3: Install Dependencies
 bash
 pip install -r requirements.txt
-Step 4: Run Application
-bash
-streamlit run app.py
-Step 5: Open Browser
-Navigate to: http://localhost:8501
 
-📦 Dependencies
-streamlit==1.28.0
-deep-translator==1.11.0
-gTTS==2.3.0
-pyperclip==1.8.0
-
-
-Troubleshooting
-deep-translator Error
+## Step 4: Run Application
 bash
-pip install deep-translator --upgrade
-gTTS Error
-bash
-pip install gTTS --upgrade
-Streamlit Not Found
-bash
-pip install streamlit --upgrade
+python app.py
 
+## Troubleshooting
+Transformers Error
+bash
+pip install transformers --upgrade
+PyTorch Error
+bash
+# CPU version
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+Model Download Issues
+bash
+export HF_ENDPOINT=https://hf-mirror.com
